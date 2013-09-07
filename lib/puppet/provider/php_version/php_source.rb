@@ -243,6 +243,9 @@ Puppet::Type.type(:php_version).provide(:php_source) do
       "--with-openssl=/usr",
       "--with-bz2=/usr",
 
+      "--with-pgsql",
+      "--with-pdo-pgsql",
+
       "--with-mysql-sock=/tmp/mysql.sock",
       "--with-mysqli=mysqlnd",
       "--with-mysql=mysqlnd",
